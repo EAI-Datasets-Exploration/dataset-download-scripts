@@ -1,0 +1,1 @@
+This file is to preserve the file strucutre of the package. I expect all investigated datasets to be placed in their own directories within this folder.
