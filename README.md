@@ -24,6 +24,26 @@ The data should be downloaded to the ```downloaded_datasets``` folder.
 
 **WARNING: PLEASE PAY ATTENTION TO HOW LARGE THE DATASET YOU ARE DOWNLOADING IS. THIS IS COMMENTED IN THE SHELL SCRIPT**
 
-## TODO
-Final output of scripts should only be the langauge data contained in each dataset, contained as a *.csv
+## Parse out NL Commands in Datasets
 
+### General Setup Instructions
+
+- ```$ conda env create -f environment.yml```
+- ```$ conda activate conda activate hri-ds-download```
+
+### RT-X Datasets
+
+- ```$ cd extract_nl_commands```
+- ```$ python rtx_datasets.py --ds_path PATH_TO/dataset-download-scripts/downloaded_datasets/dummy_ds_folder/0.1.0```
+
+The resulting language-only *.csv should be saved to ```dataset-download-scripts/language_only_datasets```. At the moment,
+I manually convert these *.csv files into *.tar files and use git-lfs to maintain that.
+
+### Other Datasets
+
+#### ALFRED
+
+- ```$ cd extract_nl_commands```
+- ```$ python alfred_dataset.py --ds_path PATH_TO/dataset-download-scripts/downloaded_datasets/alfred --level both```
+
+#### ARL-SCOUT
