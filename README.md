@@ -40,3 +40,8 @@ The resulting language-only *.csv should be saved to ```dataset-download-scripts
 I manually convert these *.csv files into *.tar files and use git-lfs to maintain that.
 
 ### Other Datasets
+
+#### ALFRED
+
+- ```$ cd extract_nl_commands```
+- ```$ python alfred_dataset.py --ds_path PATH_TO/dataset-download-scripts/downloaded_datasets/alfred --level both```
