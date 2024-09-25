@@ -24,6 +24,13 @@ The data should be downloaded to the ```downloaded_datasets``` folder.
 
 **WARNING: PLEASE PAY ATTENTION TO HOW LARGE THE DATASET YOU ARE DOWNLOADING IS. THIS IS COMMENTED IN THE SHELL SCRIPT**
 
-## TODO
-Final output of scripts should only be the langauge data contained in each dataset, contained as a *.csv
+## Parse out NL Commands in Datasets
 
+### General Setup Instructions
+
+- ```$ conda env create -f environment.yml```
+- ```$ conda activate conda activate hri-ds-download```
+
+### RT-X Datasets
+
+### Other Datasets

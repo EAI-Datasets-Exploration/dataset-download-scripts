@@ -1,0 +1,17 @@
+name: hri-ds-download
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+  - nvidia
+  - stanfordnlp
+dependencies:
+  - python==3.10
+  - bioconda::p7zip
+  - cuda-toolkit
+  - gcsfs
+  - gsutil
+  - google-auth
+  - pandas
+  - git-lfs
+  - tensorflow-datasets
