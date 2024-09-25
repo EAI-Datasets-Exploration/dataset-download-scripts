@@ -1,5 +1,5 @@
 """
-This file analyzes ARL-SCOUT dataset.
+This file analyzes ALFRED dataset.
 
 To download this dataset, follow the instructions in the download_scripts
 folder at the top-level of this directory.

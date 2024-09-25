@@ -45,3 +45,5 @@ I manually convert these *.csv files into *.tar files and use git-lfs to maintai
 
 - ```$ cd extract_nl_commands```
 - ```$ python alfred_dataset.py --ds_path PATH_TO/dataset-download-scripts/downloaded_datasets/alfred --level both```
+
+#### ARL-SCOUT
