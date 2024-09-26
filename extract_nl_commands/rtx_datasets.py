@@ -41,7 +41,7 @@ def main(params):
     results_dir_path = "/".join(os.getcwd().split("/")[:-1]) + "/language_only_datasets/"
     ds_name = ds_path.split("/")[ds_path.split("/").index("downloaded_datasets") + 1]
 
-    df.to_csv(results_dir_path  + ds_name + "_nl_only.csv")
+    df.to_csv(results_dir_path  + ds_name + "_nl_only.csv", index=False)
 
 if __name__ == "__main__":
     parser = ArgumentParser()

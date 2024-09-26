@@ -162,7 +162,7 @@ def main(params):
     df = remove_tags(df, nl_column="nl_instructions", log_out_path=out_path_logs)
     df = df[df["nl_instructions"].notnull()]
 
-    df.to_csv(results_dir_path + ds_name + "_" + data_stram_name + "_results.csv")
+    df.to_csv(results_dir_path + ds_name + "_" + data_stram_name + "_nl_only.csv", index=False)
 
 
 if __name__ == "__main__":

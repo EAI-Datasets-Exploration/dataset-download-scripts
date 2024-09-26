@@ -54,7 +54,7 @@ def main(params):
     df = read_json_to_df(ds_path, level)
     df = df[df["nl_instructions"].notnull()]
     
-    df.to_csv(results_dir_path + ds_name + "_" + level + "_results.csv")
+    df.to_csv(results_dir_path + ds_name + "_" + level + "_nl_only.csv", index=False)
 
 
 if __name__ == "__main__":
