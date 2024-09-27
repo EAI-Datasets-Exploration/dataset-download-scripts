@@ -1,0 +1,7 @@
+{
+    "alfred": "alfred_both_results.csv",
+    "bridge": "bridge_nl_only.csv",
+    "rt1": "fractal20220817_data_nl_only.csv",
+    "scout": "ARL-SCOUT_Commander_results.csv",
+    "tacoplay": "taco_play_nl_only.csv"
+}
