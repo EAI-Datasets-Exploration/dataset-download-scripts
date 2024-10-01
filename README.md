@@ -37,7 +37,9 @@ In order for the above to work you must have already:
 - ```$ git lfs install```
 - ```$ cd dataset-download-scripts/language_only_dataset```
 - ```$ git lfs pull```
+
 THEN, you can finally:
+
 - ```$ tar -xvf yourfile.tar```
 
 ### General Setup Instructions
