@@ -32,6 +32,14 @@ The resulting language-only *.csv should be saved to ```dataset-download-scripts
 However, I also use git-lfs to save out the NL commands *.csv files and then tar them using ```tar -cvf file_name.csv```. To use these datasets,
 use ```tar -xvf file_name.tar``` to convert the file back into a *.csv file.
 
+In order for the above to work you must have already:
+- Created the hri-ds-download conda environment.
+- ```$ git lfs install```
+- ```$ cd dataset-download-scripts/language_only_dataset```
+- ```$ git lfs pull```
+THEN, you can finally:
+- ```$ tar -xvf yourfile.tar```
+
 ### General Setup Instructions
 
 - ```$ conda env create -f environment.yml```
