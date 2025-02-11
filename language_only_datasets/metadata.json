@@ -3,5 +3,6 @@
     "bridge": "bridge_nl_only.csv",
     "rt1": "fractal20220817_data_nl_only.csv",
     "scout": "ARL-SCOUT_Commander_results.csv",
-    "tacoplay": "taco_play_nl_only.csv"
+    "tacoplay": "taco_play_nl_only.csv",
+    "glue": "glue_data_nl_only.csv"
 }
